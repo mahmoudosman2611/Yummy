@@ -1,0 +1,81 @@
+body {
+  background-color: #0d0d0d !important;
+  color: #f9f6f6 !important;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+span {
+  display: inline-block;
+}
+.side-nav-menu {
+  z-index: 99;
+}
+
+.loadingScreen {
+  display: flex;
+  z-index: 999;
+}
+
+.inner-loading-screen {
+  position: absolute;
+  background-color: #0d0d0d;
+  display: flex;
+  z-index: 9;
+}
+
+.nav-tab {
+  background-color: #0d0d0d;
+}
+.nav-links ul li {
+  cursor: pointer;
+}
+
+.nav-header {
+  color: #0d0d0d;
+}
+
+.logo {
+  width: 50px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.layer {
+  background-color: rgba(255, 255, 255, 0.795);
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  transition: all 0.5s;
+}
+
+.meal {
+  overflow: hidden;
+}
+.meal:hover .layer {
+  top: 0;
+}
+
+.form-control::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+.contactUs .form-control::placeholder {
+  color: rgba(0, 0, 0, 0.582) !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .meal h3 {
+    margin-inline: auto;
+  }
+}

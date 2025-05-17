@@ -36,8 +36,10 @@ span {
 }
 
 .nav-header {
+  background-color: rgba(255, 255, 255, 0.514);
   color: #0d0d0d;
 }
+
 
 .logo {
   width: 50px;
